@@ -1,4 +1,3 @@
-monsterButton.addEventListener("click",makeMe);
 function makeMe() {
     myAudio.play();
     random_head();
