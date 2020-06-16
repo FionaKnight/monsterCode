@@ -1,4 +1,5 @@
 monsterButton.addEventListener("click",makeMe);
 function makeMe() {
+ myAudio.play();
    alert("hello fiona");
 }
