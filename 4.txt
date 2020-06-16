@@ -1,0 +1,8 @@
+function random_head() {
+    randomNumber = Math.floor(Math.random()*10);
+    root.style.setProperty('--head', (367 * randomNumber) + "px");
+    head.style.setProperty('animation-duration', (0.5 * randomNumber) + 's');
+    head.style.setProperty("animation", "none");
+    head.offsetHeight;
+    head.style.setProperty("animation", null);
+}
