@@ -1,0 +1,8 @@
+function random_eyes() {
+    randomNumber = Math.floor(Math.random()*10);
+    root.style.setProperty('--eyes', (367 * randomNumber) + "px");
+    eyes.style.setProperty('animation-duration', (0.5 * randomNumber) + 's');
+    eyes.style.setProperty("animation", "none");
+    eyes.offsetHeight;
+    eyes.style.setProperty("animation", null);
+}
